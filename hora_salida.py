@@ -17,7 +17,8 @@ f_hora_salida = datetime.strptime(hora_salida, formato)
 resto_horas = f_hora_salida - f_hoy
 print(f"Horas restantes: {resto_horas}")
 
+
 if f_hoy < f_hora_salida:
-    print(f"Tienes que seguir trabajando. Que quedan {resto_horas} en la oficina")
+    print(f"Tienes que seguir trabajando. Te quedan {resto_horas} en la oficina")
 else:
     print("Ya deberías estar fuera")
