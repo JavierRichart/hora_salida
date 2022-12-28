@@ -19,6 +19,6 @@ print(f"Horas restantes: {resto_horas}")
 
 
 if f_hoy < f_hora_salida:
-    print(f"Tienes que seguir trabajando. Te quedan {resto_horas} en la oficina")
+    print(f"Tienes que seguir trabajando. Te quedan {resto_horas} horas en la oficina")
 else:
     print("Ya deberías estar fuera")
